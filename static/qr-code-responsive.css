@@ -1,4 +1,4 @@
-@media (max-width:375px) {
+@media (max-width:480px) {
     body{
         grid-template-columns: repeat(2,1fr);
     }

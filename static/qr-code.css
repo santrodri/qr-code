@@ -19,6 +19,7 @@ body{
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
+
 main{
     margin-top: 10vh ;
     background-color: var(--white);
@@ -27,12 +28,16 @@ main{
     text-align: center;
 } 
 
+.conteiner{
+    display:grid;
+}
+
 .conteiner > *{
     padding: 10px 0px;
 }
 
 .conteiner > img {
-    width: 300px;
+    width: 96%;
     border-radius: 20px;
     margin: 0px auto;
     display: grid;
