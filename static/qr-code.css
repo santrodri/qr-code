@@ -1,0 +1,47 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+@font-face {
+    font-family: paragrafo;
+    src: url("fonts/Outfit-VariableFont_wght.ttf");
+}
+
+*{
+    font-family: paragrafo;
+    padding: 0px 8px;
+}
+
+body{
+    background-color: var(--light-gray);
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+main{
+    margin-top: 10vh ;
+    background-color: var(--white);
+    grid-column: 6 / 9;
+    border-radius: 20px;
+    text-align: center;
+} 
+
+.conteiner > *{
+    padding: 10px 0px;
+}
+
+.conteiner > img {
+    width: 300px;
+    border-radius: 20px;
+    margin: 0px auto;
+    display: grid;
+}
+.conteiner > h1{
+    color: var(--dark-blue);
+    font-size: x-large;
+}
+.conteiner > p{
+    color: var(--grayish-blue);
+}
+

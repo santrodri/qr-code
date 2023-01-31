@@ -1,0 +1,9 @@
+@media (max-width:375px) {
+    body{
+        grid-template-columns: repeat(2,1fr);
+    }
+    main{
+        margin: 15px;
+    }
+
+}
